@@ -379,6 +379,7 @@ margin-left: auto;
   font-weight: 500;
   letter-spacing: 1px;
   text-align: justify;
+  color: #000;
 }
 
 .quality-box {
@@ -499,6 +500,19 @@ transition: all 0.5s ease;
 }
 
 @media (min-width: 576px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-sm-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
   .col-sm-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -507,6 +521,19 @@ transition: all 0.5s ease;
 }
 
 @media (min-width: 1200px) {
+  .col-xl {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-xl-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
   .col-xl-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
@@ -515,6 +542,19 @@ transition: all 0.5s ease;
 }
 
 @media (min-width: 992px) {
+  .col-lg {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-lg-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
   .col-lg-6 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
@@ -523,12 +563,24 @@ transition: all 0.5s ease;
 }
 
 @media (min-width: 768px) {
+  .col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-md-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-
   .col-md-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -537,6 +589,19 @@ transition: all 0.5s ease;
 }
 
 @media (min-width: 706px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-sm-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
   .col-sm-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
